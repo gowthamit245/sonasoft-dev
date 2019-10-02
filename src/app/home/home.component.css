@@ -1,3 +1,139 @@
+
+/*  section-box3 start */
+.sec-3{
+    /* height: 800px; */
+}
+.space-30{
+    height: 30px;
+}
+.cborder{
+    border: 2px solid black;
+  font-size: 20px;
+}
+.chng-color:hover{
+background-color:#001a3f ;
+
+color: white!important;
+}
+.sub-heading{
+    font-weight: 400; 
+    color: #00588f;
+    font-size: 30px;
+}
+.sec-3 p{
+    font-size: 18px;
+    font-weight: 390;
+}
+.sec-3 a{
+    font-weight: 500;
+}
+
+/*  section-box3 end */
+/*  section-box4 start */
+.sec-4{
+    width: 100%;
+    /* height: 500px; */
+     background-image: url('../../assets/images/home/Poly-Background15.jpg');
+     background-size: cover!important;
+     background-position: center!important;
+}
+.sec-4 a{
+  border: 2px solid white;
+  color: #fff;
+  font-weight: 500;
+  
+}
+.sec-4 a:hover{
+    background-color: white;
+    color: #001a3f!important;
+}
+.sec-4 img{
+    width: 250px;
+    height: 70px;
+}
+/*  section-box4 end */
+/*  section-box5 start */
+.sec-5 img{
+    font-size: 21px; 
+    font-weight: 500;
+    text-align: justify; 
+    color: black;
+    width: 330px;
+
+}
+.sec-5 a{
+    font-size: 21px;
+    font-weight: 500;
+    color: black;
+    opacity: .9;
+
+}
+.cbtn{
+    border: 2px solid #001a3f;
+    color: #001a3f;
+}
+.cbtn:hover{
+    background-color: #001a3f;
+    color: white!important;
+}
+/*  section-box5 end */
+/*  section-box6 start */
+.sec-6{
+    width: 100%;
+    /* height: 590px; */
+     background-image: url('../../assets/images/home/Poly-Dot-Bckg-Light.jpg');
+     background-size: cover!important;
+     background-position: center!important;
+}
+.sec-6 img{
+    width: 350px;
+    height: 200px;
+}
+.sec-6 a{
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    opacity: .9;
+
+}
+.cbtn-news{
+    border: 1px solid white;
+}
+.cbtn-news:hover{
+    background-color: white;
+    color: #001a3f!important;
+   
+}
+/*  section-box6 end */
+@media (max-width: 576px) { 
+ 
+    .sec-4 img{
+        width: 130px;
+        height: 40.7333px;
+    }
+   p{
+       font-size: 16px;
+   }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px !important;
+        letter-spacing: .018666666666666665px;
+    }
+    a{
+        font-size: 15px !important;
+    }
+    .sec-5 img{
+        width: 252.5px;
+        height: 141px;
+    }
+    .sec-6 img{
+        width: 260.5px;
+        height: 141px;
+    }
+}
+
 .home-banner{
     background-image: url("../../assets/images/home-banner.jpg");
     background-attachment: fixed;
@@ -41,3 +177,4 @@
 
 
 /* ====home section-2 styles end===== */
+
