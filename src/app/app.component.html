@@ -1,7 +1,184 @@
-<header class="d-block">
-  header
+<header class=" header-top">
+    <div class="Header-inner Header-inner-top d-flex p-2 " >
+            <div class="d-inline-block py-2">
+                <a href="javascript:void(0)" [routerLink]="['/']" >
+                    <img src="assets/images/sonasoft_logo.png" class="logo d-inline col-8 " alt="Logo" />
+                </a>
+            </div>
+            <ul class="nav nav-pills pt-2">
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="javascript:void(0)" [routerLink]="['/about-us']">About</a>
+                    <!-- <div class="dropdown-menu">
+                        <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/about-us']" >About Us</a>
+                        
+                        <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/community-care']">Community Care</a>
+
+                        <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/careers']">Careers</a>
+
+                        <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/ibm-partnership']">IBM Partnership</a>
+
+                    </div> -->
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Analytics</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="javascript:void(0)">Action</a>
+                        <a class="dropdown-item" href="javascript:void(0)">Another action</a>
+                    </div>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" [routerLink]="['/big-data']" href="javascript:void(0)">Capabilities</a>
+                    <div class="dropdown-menu sub-nav-list">
+                        <a class="dropdown-item" href="javascript:void(0)">Data & Analytics Advisory</a>
+                        <a class="dropdown-item" href="javascript:void(0)">Predictive Analytics (AI/ML)</a>
+                        <a class="dropdown-item" href="javascript:void(0)">Analytics & Visualization</a>
+                        <a class="dropdown-item" href="javascript:void(0)">Managed Data Solutions as a Service</a>
+                        <a class="dropdown-item" href="javascript:void(0)">Automation as a Services</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" [routerLink]="['/solutions']" routerLinkActive="" href="javascript:void(0)">Solutions</a>
+                    <div class="dropdown-menu">
+                        <a href="javascript:void(0)" class="dropdown-item" >Sales Analytics</a>
+                        <a href="javascript:void(0)" class="dropdown-item" >Marketing Analytics</a>
+                        <a href="javascript:void(0)" class="dropdown-item" >Campaign to Cash</a>
+                    </div>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Thought Leadership</a>
+                    <div class="dropdown-menu">
+                        <a href="javascript:void(0)" [routerLink]="['/new_events']"   class="dropdown-item" >News&Events</a>
+                        <a href="javascript:void(0)" [routerLink]="['/technology_partner']"   class="dropdown-item" >Technology-partner</a>
+                    </div>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link " href="javascript:void(0)" [routerLink]="['/contact']" routerLinkActive="active">Contact Us</a>
+                </li>
+                
+                <li class="nav-item">
+                        <a class="nav-link " href="javascript:void(0)" [routerLink]="['/contact']" routerLinkActive="active"></a>
+                    </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link " href="javascript:void(0)">
+                        <i class="fa ctext-secondary fa-search icon-search"></i>
+                    </a>
+                </li> -->
+            </ul>
+</div>
 </header>
 <router-outlet></router-outlet>
-<footer class="d-block">
-  footer
+<footer class="footer d-block mt-5 p-5" >
+    <div class="Footer-inner clear">
+    <div class=" columns-12 footer-blocks Footer-blocks--top ">
+      <div class="row footer-row text-white">
+        <div class="col">
+          <div class="row sqs-row">
+            <div class="col sqs-col-3 span-3">
+              <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_9_1515962129803_6550">
+                <div class="sqs-block-content">
+                  <h3>Ireland Office</h3>
+                  <p>sonasoft Ltd.<br>Unit B3<br>Nangor Road Business Park<br>Nangor Road<br>Dublin 12,&nbsp;D12 V8C3</p><p>☏ +353 (0)1 460 4888<br>🖂&nbsp; <a href="#">sales@sonasoft.ie</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col sqs-col-3 span-3">
+              <div class="sqs-block html-block sqs-block-html" >
+                <div class="sqs-block-content">
+                  <h3>UK Office</h3>
+                  <p>sonasoft  Ltd.<br>Base Point Business Centre<br>377 - 399 London Road<br>Camberley<br>GU15 3HL</p>
+                  <p>☏ +44 (0)203 846 8416<br>🖂 <a href="#">sonasoft@sonasoft.co.uk</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col sqs-col-3 span-3">
+              <div class="sqs-block html-block sqs-block-html" >
+                <div class="sqs-block-content">
+                  <h3>Quick Links</h3><p>
+                    <a href="#">For Our Vendors</a><br>
+                    <a href="#">For Our Channel</a><br>
+                    <a href="#">Our Solutions</a><br>
+                    <a href="#">Our Team</a><br><a href="#">News</a><br>
+                    <a href="#">Events</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col sqs-col-3 span-3">
+              <div class="sqs-block html-block sqs-block-html" >
+                <div class="sqs-block-content">
+                  <h3>Follow Us On Twitter</h3>
+                </div>
+              </div>
+              <div class="sqs-block twitter-block sqs-block-twitter" >
+                <div class="sqs-block-content">
+    <ul class="tweet-list">
+    <li class="tweet clear no-avatar no-username" >
+    <div class="tweet-text-wrapper">
+    <div class="tweet-text">If you're new to @<a class="tweet-url username" href="#" rel="nofollow">citrix</a> or planning a move to Citrix Cloud, then we would be delighted if you could join us for ou… <a href="#" rel="nofollow">adsdsada</a></div>
+    <time class="tweet-timestamp" datetime="2019-09-30"><a target="new" href="#">Sep 30, 2019, 6:43 AM</a></time>
+    </div>
+    </li>
+    </ul>
+    <div class="squarespace-follow-button" ><div id="yui_3_17_2_1_1569849006614_861" class="yui3-widget sqs-follow-button">
+      <div  class="sqs-follow-button-content">
+
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <div class="Footer-middle">
+    <div class="Footer-business">
+
+
+    </div>
+    <div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--middle sqs-alternate-block-style-container empty">
+      <div class="row sqs-row">
+        <div class="col sqs-col-12 span-12"></div>
+      </div>
+    </div>
+    </div>
+    <div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--bottom sqs-alternate-block-style-container" >
+      <div class="row sqs-row">
+        <div class="col sqs-col-12 span-12">
+          <div class="row sqs-row">
+            <div class="col sqs-col-3 span-3">
+              <div class="sqs-block html-block sqs-block-html" data-block-type="2" >
+                <div class="sqs-block-content">
+                  <p class="text-white">Copyright © 2019 sonasoft Ltd.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col sqs-col-3 span-3">
+              <div class="sqs-block html-block sqs-block-html" >
+                <div class="sqs-block-content">
+                  <p>
+                    <a href="#" class="text-white">Privacy Policy</a>&nbsp; &nbsp;|&nbsp; &nbsp;<a href="#" class="text-white">Disclaimer</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col sqs-col-3 span-3">
+              <div class="sqs-block spacer-block sqs-block-spacer" >
+                <div class="sqs-block-content sqs-intrinsic" >&nbsp;</div>
+              </div>
+            </div>
+            <div class="col sqs-col-3 span-3">
+              <div class="sqs-block spacer-block sqs-block-spacer">
+                <div class="sqs-block-content sqs-intrinsic" >&nbsp;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    </div>
 </footer>
