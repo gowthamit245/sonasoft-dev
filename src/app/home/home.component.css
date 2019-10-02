@@ -1,0 +1,43 @@
+.home-banner{
+    background-image: url("../../assets/images/home-banner.jpg");
+    background-attachment: fixed;
+    height: 800px;
+}
+.home-banner-text h1{
+    font-family: proxima-nova;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: 0em;
+    line-height: 1.1em;
+    text-transform: uppercase;
+}
+.home-banner-text h4{
+    font-family: proxima-nova;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: .03em;
+    line-height: 1.4em;
+    text-transform: none;
+}
+/* ====home section-2 styles===== */
+.home-sec-2{
+    height: 700px;
+    background-color: #00354f;
+}
+.home-sec-2-div {
+    height: 540px;
+    background-color: #001a3f;
+}
+.home-sec-2-div-2{
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    color:white;
+}
+
+
+
+
+/* ====home section-2 styles end===== */
