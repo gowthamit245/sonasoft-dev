@@ -1,7 +1,8 @@
 
 /*  section-box3 start */
-.sec-3{
-    /* height: 800px; */
+.change-margin{
+    margin-right: -1px;
+    margin-left: -1px;
 }
 .space-30{
     height: 30px;
