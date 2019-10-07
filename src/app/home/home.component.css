@@ -110,12 +110,27 @@ color: white!important;
 /*  section-box6 end */
 @media (max-width: 576px) { 
  
+    .home-banner-section img{
+        max-width: 100%;
+        height: auto;
+    }
+    .home-sec-2-div img{
+        max-width: 100%;
+        height: auto;
+    }
+    .home-banner-text h1{
+        font-size: 32px !important;
+        letter-spacing: 0px !important;
+       
+    }
     .sec-4 img{
-        width: 130px;
-        height: 40.7333px;
+        max-width: 100%;
+        height: auto;
+        /* width: 130px;
+        height: 40.7333px; */
     }
    p{
-       font-size: 16px;
+       font-size: 18px;
    }
     h1{
         font-size: 30px;
@@ -125,15 +140,19 @@ color: white!important;
         letter-spacing: .018666666666666665px;
     }
     a{
-        font-size: 15px !important;
+        font-size: 18px !important;
     }
     .sec-5 img{
-        width: 252.5px;
-        height: 141px;
+        /* width: 329.5px;
+        height: 171px; */
+        max-width: 100%;
+        height: auto;
     }
     .sec-6 img{
-        width: 260.5px;
-        height: 141px;
+        /* width: 337.5px;
+        height: 166px; */
+        max-width: 100%;
+        height: auto;
     }
     /* gowthami */
    .home-banner .home-banner-text h1{
@@ -153,7 +172,15 @@ color: white!important;
 .home-banner{
     background-image: url("../../assets/images/home-banner.jpg");
     background-attachment: fixed;
-    height: 800px;
+   
+}
+.home-banner h1{
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: 0em;
+    line-height: 1.1em;
+  
 }
 .home-banner-text h1{
     font-family: proxima-nova;
@@ -174,9 +201,20 @@ color: white!important;
     text-transform: none;
 }
 /* ====home section-2 styles===== */
+.sec-2{
+    width: 100%;
+    
+     background-image: url('../../assets/images/home/Poly-Dot-Bckg-Light.jpg');
+}
 .home-sec-2{
     height: 700px;
     background-color: #00354f;
+}
+.home-sec{
+    background-color: #00354f;
+}
+.home-sec-div{
+    background-color: #001a3f;
 }
 .home-sec-2-div {
     height: 540px;
@@ -195,6 +233,8 @@ color: white!important;
 
 
 /* ====home section-2 styles end===== */
+/* animation slide --h */
+
 
 /* ====== new home styles ========= */
 .insight-div{
