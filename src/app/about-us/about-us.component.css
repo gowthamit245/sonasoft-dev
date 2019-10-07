@@ -1,0 +1,31 @@
+.about-sec-2 {
+    background-color: #00354f;
+    padding-right: -15px;
+    padding-left: -15px;
+}
+
+
+.abou-us-banner {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.about-us-client-sec{
+    background: #3d849d;
+}
+
+
+@media (max-width: 575px){
+    .about-sec-2 img{
+        width:100%;
+    }
+}
+@media (min-width: 576px){
+    .about-sec-2 img{
+        height: 450px;
+    }
+}
+@media (min-width: 992px){
+.about-sec-2 img{
+    height: 450px;
+}
+}
