@@ -1,0 +1,14 @@
+.industries_title{
+
+    background: #efefef;
+}
+.manufacture-img img{
+    max-width: 100%;
+    height: auto; 
+}
+.manufacture-text p{
+    color: #666;
+}
+.cloud-app-text h3,p,li{
+    color: #666;
+}

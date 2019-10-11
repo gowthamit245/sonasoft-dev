@@ -49,11 +49,12 @@
               "outputHashing": "all",
               "sourceMap": false,
               "extractCss": true,
-              "namedChunks": false,
+              "namedChunks": true,
               "aot": true,
               "extractLicenses": true,
-              "vendorChunk": false,
+              "vendorChunk": true,
               "buildOptimizer": true,
+              "commonChunk": true,
               "budgets": [
                 {
                   "type": "initial",

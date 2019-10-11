@@ -297,9 +297,9 @@ color: white!important;
 .trusted-block-images img{
     width: 100%;
 }
-.trusted-block-curve{
+/* .trusted-block-curve{
     margin-left: -32px;
-}
+} */
 /* .case-study-block-curve{
     margin-left: -32px;
 } */
@@ -403,4 +403,10 @@ color: white!important;
     background-image: url("../../assets/images/home/image4.jpg");
     background-color: rgba(0, 0, 0, 0.801);
     background-blend-mode: multiply;
+    }
+    .trusted-curve-image{
+        background-image: url("../../assets/images/home/trusted-clients/curve.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
     }

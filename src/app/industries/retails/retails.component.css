@@ -1,0 +1,24 @@
+.cbg-color{
+    background: #00354fe0;
+}
+.cbg-color-heading{
+    background: #efefef;
+}
+
+.manufacture-img img{
+    max-width: 100%;
+    height: auto; 
+    }
+    .manufacture-text p{
+    color: #666;
+    }
+    .manufacture-div-background{
+    background: #00354fe0;
+    }
+    .animate-right{
+    position:relative;
+    animation:animateright-div 1.6s
+    }
+    @keyframes animateright-div{
+    from{right:-300px;opacity:0} to{right:0;opacity:1}
+    }

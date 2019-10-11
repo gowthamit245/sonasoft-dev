@@ -12,7 +12,10 @@
 .about-us-client-sec{
     background: #3d849d;
 }
+.industries_title{
 
+    background: #efefef;
+}
 
 @media (max-width: 575px){
     .about-sec-2 img{
